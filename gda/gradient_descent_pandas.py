@@ -7,7 +7,7 @@ def gda(x, y):
     import random
     w = 0#random.random()
     b = 0#random.random()
-    a = 0.0000000000001#random.random()
+    a = 0.0000003#random.random()
     print('Initial weight, biase and learning rate is:')
     print(w, b, a)
     w_list = []
@@ -47,7 +47,7 @@ def gda(x, y):
 
 if __name__ == "__main__":
     import pandas as pd
-    df = pd.read_csv('data_scaled.csv')
+    df = pd.read_csv('../ml/data.csv')
     x = df['x']
     y = df['y']
 

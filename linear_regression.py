@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 from sklearn import linear_model
 import pandas
 
-df = pandas.read_csv('data.csv')
+df = pandas.read_csv('ml/data.csv')
 df.fillna(0, inplace=True)
 x = df[['x']]
 y = df[['y']]
